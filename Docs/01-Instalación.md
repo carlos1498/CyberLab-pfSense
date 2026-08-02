@@ -34,3 +34,19 @@ Se reasignaron las interfaces desde la opción Assign Interfaces del menú de co
 
 Al terminar la instalación de pfSense y si todo salió correctamente veremos un menú parecido al siguiente:
 <img width="732" height="412" alt="image" src="https://github.com/user-attachments/assets/e518c371-ac2a-4eb4-b84b-b01324ed7e82" />
+
+**Instalación de Ubuntu en Oracle Virtual Box**
+
+El siguiente punto ahora será crear la MV de nuestra maquina cliente la cual monitorearemos con el firewall
+
+Usaremos los siguientes valores:
+| Configuración |                                                Valor |
+| ------------- | ---------------------------------------------------: |
+| RAM           |                                              2048 MB |
+| CPU           |                                                    2 |
+| Disco         |                                       25 GB dinámico |
+| Adaptador     | **Red interna** (la misma que usa la LAN de pfSense) |
+
+
+
+

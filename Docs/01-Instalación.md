@@ -9,6 +9,7 @@ La MV se creará con los siguientes valores:
 | CPU           | ✅ 2 núcleos         |
 | Adaptador 1   | ✅ NAT (WAN)         |
 | Adaptador 2   | ✅ Red interna (LAN) |
+_________________________________________
 Una vez aplicadas estas configuraciones podemos arrancar la MV e iniciar el proceso de instalación del sistema Operativo de pfSense en la maquina virtual.
 Algunos problemas que se presentaron durante la instalación y como resolverlos:
 Problema 1
@@ -27,10 +28,7 @@ Solución
 Se retiró el medio óptico virtual después de la instalación.
 Problema 3
 La interfaz LAN no aparecía inicialmente.
+Solución
+Se reasignaron las interfaces desde la opción Assign Interfaces del menú de consola.
 Al terminar la instalación de pfSense y si todo salió correctamente veremos un menú parecido al siguiente:
 <img width="732" height="412" alt="image" src="https://github.com/user-attachments/assets/e518c371-ac2a-4eb4-b84b-b01324ed7e82" />
-
-
-Solución
-
-Se reasignaron las interfaces desde la opción Assign Interfaces del menú de consola.

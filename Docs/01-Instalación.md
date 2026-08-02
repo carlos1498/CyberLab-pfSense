@@ -42,10 +42,17 @@ El siguiente punto ahora será crear la MV de nuestra maquina cliente la cual mo
 Usaremos los siguientes valores:
 | Configuración |                                                Valor |
 | ------------- | ---------------------------------------------------: |
-| RAM           |                                              2048 MB |
+| RAM           |                                              4096 MB |
 | CPU           |                                                    2 |
 | Disco         |                                       25 GB dinámico |
 | Adaptador     | **Red interna** (la misma que usa la LAN de pfSense) |
+
+Además de ser necesario tambien la imagen ISO de Ubuntu previamente ya descargada.
+Con todos estos parametros ya establecidos podemos proceder con la instalación. 
+Lo único que debemos hacer es seguir los pasos que el asistente de instalación nos proporciona y esperar varios minutos.
+**Así luce nuestro Ubuntu ya instalado.**
+<img width="1296" height="810" alt="image" src="https://github.com/user-attachments/assets/e4098e57-d9fb-41e3-be64-4759f8bbe075" />
+
 
 
 
